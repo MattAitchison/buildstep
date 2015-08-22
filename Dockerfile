@@ -10,6 +10,7 @@ COPY plugins/ /var/buildkit/plugins
 
 RUN mkdir -p /tmp/src \
     && plugn enable core \
+    && plugn enable herokuish \
     && plugn enable docker \
     && plugn list
 

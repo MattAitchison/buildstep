@@ -1,0 +1,6 @@
+[plugin]
+name = "herokuish"
+description = ""
+version = "0.1"
+
+[plugin.config]
